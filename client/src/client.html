@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Panfu Client</title>
+    <link rel="manifest" href="manifest.json">
+
+    <link rel="stylesheet" href="style/main.css">
+    <link rel="stylesheet" href="./style/ui.css">
+</head>
+<body>
+    <tooltip>
+        <span id="tooltipText"></span>
+        <img src="./images/arrow.png">
+    </tooltip>
+    <ui>
+        <overlay>
+            <top>
+                <div></div>
+                <chatlog></chatlog>
+                <div></div>
+            </top>
+            <bottom>
+                <a class=""></a>
+                <navigation>
+                    <div>
+                        <a class="navBtn"></a>
+                        <a class="navBtn"></a>
+                        <a class="navBtn"></a>
+                        <a class="navBtn"></a>
+                    </div>
+
+                    <!-- chat -->
+                    <div style="width: 235px; position: relative;">
+                        <input type="text" id="chat">
+                        <a id="chatBtn"><img src="./images/navi/send.png" alt=""></a>
+                    </div>
+                    <!-- end chat -->
+
+                    <div>
+                        <a class="navBtn"></a>
+                        <a class="navBtn"><img src="./images/navi/camera.png" alt=""></a>
+                        <a class="navBtn"></a>
+                        <a class="navBtn"></a>
+                    </div>                </navigation>
+                <a id="mapBtn"></a>
+            </bottom>
+        </overlay>
+
+        <server-selector>
+            <div>
+                <img src="./images/panda.png" alt="server image">
+                <span>{{servername}}</span>
+            </div>
+        </server-selector>
+        <!-- Map -->
+        <map>
+            <div>
+                <span>{servername}</span>
+                <button>&#9932;</button>
+            </div>
+            <!-- refactor this in future so that we can load in the coords from an api -->
+            <map-areas>
+            </map-areas>
+            <img src="./images/map_navigator.jpg">
+        </map>
+    </ui>
+
+
+    <!-- actual game -->
+
+    <canvas-container>
+        <!-- you're not an up-to date panda -->
+    </canvas-container>
+
+    <!-- end canvas -->
+
+
+    <!-- libs -->
+    <script src="./libs/pixi.min.js"></script>
+    <script src="./libs/socket.io.js"></script>
+    
+    
+    <!-- engine -->
+    <script src="./scripts/engine/scene.js"></script>
+    <script src="./scripts/engine/SceneManager.js"></script>
+    
+    <!-- rooms -->
+    <script src="./scenes/town.js"></script>
+
+    <!-- scripts -->
+    <script src="./scripts/main.js"></script>
+    <script src="./scripts/ui.js"></script>
+
+</body>
+</html>

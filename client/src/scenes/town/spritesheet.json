@@ -1,0 +1,515 @@
+{
+	"frames": {
+		"43.png": {
+			"frame": {
+				"x": 1,
+				"y": 1,
+				"w": 48,
+				"h": 62
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 48,
+				"h": 62
+			},
+			"sourceSize": {
+				"w": 48,
+				"h": 62
+			}
+		},
+		"bench_left.png": {
+			"frame": {
+				"x": 51,
+				"y": 1,
+				"w": 192,
+				"h": 144
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 192,
+				"h": 144
+			},
+			"sourceSize": {
+				"w": 192,
+				"h": 144
+			}
+		},
+		"bench_right.png": {
+			"frame": {
+				"x": 245,
+				"y": 1,
+				"w": 184,
+				"h": 152
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 184,
+				"h": 152
+			},
+			"sourceSize": {
+				"w": 184,
+				"h": 152
+			}
+		},
+		"bolly_book.png": {
+			"frame": {
+				"x": 431,
+				"y": 1,
+				"w": 158,
+				"h": 222
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 158,
+				"h": 222
+			},
+			"sourceSize": {
+				"w": 158,
+				"h": 222
+			}
+		},
+		"buildings_left.png": {
+			"frame": {
+				"x": 591,
+				"y": 1,
+				"w": 972,
+				"h": 654
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 972,
+				"h": 654
+			},
+			"sourceSize": {
+				"w": 972,
+				"h": 654
+			}
+		},
+		"buildings_right.png": {
+			"frame": {
+				"x": 1565,
+				"y": 1,
+				"w": 604,
+				"h": 642
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 604,
+				"h": 642
+			},
+			"sourceSize": {
+				"w": 604,
+				"h": 642
+			}
+		},
+		"duck_frame_1.png": {
+			"frame": {
+				"x": 2171,
+				"y": 1,
+				"w": 150,
+				"h": 202
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 150,
+				"h": 202
+			},
+			"sourceSize": {
+				"w": 150,
+				"h": 202
+			}
+		},
+		"duck_frame_2.png": {
+			"frame": {
+				"x": 2323,
+				"y": 1,
+				"w": 180,
+				"h": 202
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 180,
+				"h": 202
+			},
+			"sourceSize": {
+				"w": 180,
+				"h": 202
+			}
+		},
+		"floor.png": {
+			"frame": {
+				"x": 1,
+				"y": 657,
+				"w": 3088,
+				"h": 1776
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 3088,
+				"h": 1776
+			},
+			"sourceSize": {
+				"w": 3088,
+				"h": 1776
+			}
+		},
+		"freezer.png": {
+			"frame": {
+				"x": 2505,
+				"y": 1,
+				"w": 150,
+				"h": 162
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 150,
+				"h": 162
+			},
+			"sourceSize": {
+				"w": 150,
+				"h": 162
+			}
+		},
+		"giftshop_door_closed.png": {
+			"frame": {
+				"x": 2657,
+				"y": 1,
+				"w": 116,
+				"h": 178
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 116,
+				"h": 178
+			},
+			"sourceSize": {
+				"w": 116,
+				"h": 178
+			}
+		},
+		"giftshop_door_opened.png": {
+			"frame": {
+				"x": 2775,
+				"y": 1,
+				"w": 116,
+				"h": 178
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 116,
+				"h": 178
+			},
+			"sourceSize": {
+				"w": 116,
+				"h": 178
+			}
+		},
+		"icecream.png": {
+			"frame": {
+				"x": 1,
+				"y": 181,
+				"w": 292,
+				"h": 270
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 292,
+				"h": 270
+			},
+			"sourceSize": {
+				"w": 292,
+				"h": 270
+			}
+		},
+		"icecream2.png": {
+			"frame": {
+				"x": 2505,
+				"y": 181,
+				"w": 292,
+				"h": 270
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 292,
+				"h": 270
+			},
+			"sourceSize": {
+				"w": 292,
+				"h": 270
+			}
+		},
+		"icecream_door_closed.png": {
+			"frame": {
+				"x": 2893,
+				"y": 1,
+				"w": 184,
+				"h": 216
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 184,
+				"h": 216
+			},
+			"sourceSize": {
+				"w": 184,
+				"h": 216
+			}
+		},
+		"icecream_door_opened.png": {
+			"frame": {
+				"x": 2171,
+				"y": 219,
+				"w": 184,
+				"h": 216
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 184,
+				"h": 216
+			},
+			"sourceSize": {
+				"w": 184,
+				"h": 216
+			}
+		},
+		"kiosk.png": {
+			"frame": {
+				"x": 2799,
+				"y": 219,
+				"w": 158,
+				"h": 436
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 158,
+				"h": 436
+			},
+			"sourceSize": {
+				"w": 158,
+				"h": 436
+			}
+		},
+		"lantern.png": {
+			"frame": {
+				"x": 295,
+				"y": 219,
+				"w": 86,
+				"h": 396
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 86,
+				"h": 396
+			},
+			"sourceSize": {
+				"w": 86,
+				"h": 396
+			}
+		},
+		"lantern_side.png": {
+			"frame": {
+				"x": 2357,
+				"y": 219,
+				"w": 54,
+				"h": 392
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 54,
+				"h": 392
+			},
+			"sourceSize": {
+				"w": 54,
+				"h": 392
+			}
+		},
+		"magazine01.png": {
+			"frame": {
+				"x": 2959,
+				"y": 219,
+				"w": 120,
+				"h": 66
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 120,
+				"h": 66
+			},
+			"sourceSize": {
+				"w": 120,
+				"h": 66
+			}
+		},
+		"magazine02.png": {
+			"frame": {
+				"x": 1,
+				"y": 2435,
+				"w": 142,
+				"h": 104
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 142,
+				"h": 104
+			},
+			"sourceSize": {
+				"w": 142,
+				"h": 104
+			}
+		},
+		"mailbox.png": {
+			"frame": {
+				"x": 145,
+				"y": 2435,
+				"w": 136,
+				"h": 154
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 136,
+				"h": 154
+			},
+			"sourceSize": {
+				"w": 136,
+				"h": 154
+			}
+		},
+		"petshop_door_closed.png": {
+			"frame": {
+				"x": 383,
+				"y": 287,
+				"w": 130,
+				"h": 210
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 130,
+				"h": 210
+			},
+			"sourceSize": {
+				"w": 130,
+				"h": 210
+			}
+		},
+		"petshop_door_opened.png": {
+			"frame": {
+				"x": 2959,
+				"y": 287,
+				"w": 130,
+				"h": 210
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 130,
+				"h": 210
+			},
+			"sourceSize": {
+				"w": 130,
+				"h": 210
+			}
+		},
+		"poogle.png": {
+			"frame": {
+				"x": 283,
+				"y": 2435,
+				"w": 190,
+				"h": 230
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 190,
+				"h": 230
+			},
+			"sourceSize": {
+				"w": 190,
+				"h": 230
+			}
+		}
+	},
+	"meta": {
+		"app": "http://www.codeandweb.com/texturepacker",
+		"version": "1.0",
+		"image": "spritesheet.png",
+		"format": "RGBA8888",
+		"size": {
+			"w": 3090,
+			"h": 2666
+		},
+		"scale": "1"
+	}
+}

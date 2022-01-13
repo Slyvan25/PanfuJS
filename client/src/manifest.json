@@ -1,0 +1,10 @@
+{
+    "name": "Panfu",
+    "short_name": "Panfu",
+    "theme_color": "#007a14",
+    "background_color": "#00d957",
+    "display": "fullscreen",
+    "orientation": "landscape",
+    "scope": "/",
+    "start_url": "/"
+}
