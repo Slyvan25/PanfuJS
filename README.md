@@ -1,37 +1,45 @@
-## Welcome to GitHub Pages
+![image](https://github.com/Slyvan25/PanfuJS/blob/master/public/img/logo.png)
 
-You can use the [editor on GitHub](https://github.com/Slyvan25/PanfuJS/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+PanfuJs was/is my attempt to recreate the old flash client in pure html5 and js.
+This is to start my own panfu website just for fun and nostalgia.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## Why a rewrite?!
 
-### Markdown
+When i was playing on a private server years ago and heard about flash being deprecated by 2021 i was like why not recreate this as a project for school.
+I got far and actually made something that worked in js and canvas but my knowledge was really limited.
+It was really messy and a few years later i decided to rewrite it with an engine kind of approach so that implementing stuff would be better.
+After looking at many options i decided to go for pixiJS as renderer and here we are.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+And let's be real here.. flash emulators or older chromium containers aren't really a solution but just a patch for a problem that should be solved.
 
-```markdown
-Syntax highlighted code block
+### Why not unity or unreal godot or anything else?!
+Because it's fun and i think AAA engines are way to heavy for a game like this.
+It's like putting a race engine in to a small car. will it work?! probably... is it resource hungry and impractical hell yea.
 
-# Header 1
-## Header 2
-### Header 3
 
-- Bulleted
-- List
+## Can i contribute?! FUCK YES!
+You may contribute if you want. i want this client to be open source for the community.
 
-1. Numbered
-2. List
+### Contact
 
-**Bold** and _Italic_ and `Code` text
+Be sure to contact me if you still have the full flash client, I'd love to add more stuff in to this.
 
-[Link](url) and ![Image](src)
-```
+**Discord:** slyvan25#5565
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
-### Jekyll Themes
+## Dependencies and libraries used for this project
+- Pixi.js
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Slyvan25/PanfuJS/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+## Current project goals
+- Load in scenes
+- create basic version based on the first panfu revisions
+- get it working with the original emulator or build a new game server
+- implement dev tools so that we can add content trough a portal
+- add achievements
+- add quests
+- add ranks
+- add mod tools
+- add all newer content with the mod tools
 
-### Support or Contact
+![Image](https://tcrf.net/images/thumb/3/37/Panfu-Map_Nov07.jpg/400px-Panfu-Map_Nov07.jpg)
 
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
