@@ -11,7 +11,7 @@ You may contribute if you want. i want this client to be open source for the com
 
 Be sure to contact me if you still have the full flash client, I'd love to add more stuff in to this.
 
-**Discord: ** slyvan25#5565
+**Discord:** slyvan25#5565
 
 ![Image](https://tcrf.net/images/thumb/3/37/Panfu-Map_Nov07.jpg/400px-Panfu-Map_Nov07.jpg)
 
