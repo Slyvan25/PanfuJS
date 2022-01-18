@@ -3,7 +3,8 @@
 PanfuJs was/is my attempt to recreate the old flash client in pure html5 and js.
 This is to start my own panfu website just for fun and nostalgia.
 
-##Why a rewrite?!
+###Why a rewrite?!
+
 When i was playing on a private server years ago and heard about flash being deprecated by 2021 i was like why not recreate this as a project for school.
 I got far and actually made something that worked in js and canvas but my knowledge was really limited.
 It was really messy and a few years later i decided to rewrite it with an engine kind of approach so that implementing stuff would be better.
