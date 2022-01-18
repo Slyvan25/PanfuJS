@@ -28,10 +28,12 @@ Be sure to contact me if you still have the full flash client, I'd love to add m
 
 
 ## Dependencies and libraries used for this project
-- Pixi.js
+- pixi.js
+- socket.io
 
 ## Current project goals
 - Load in scenes
+- add sessions to client
 - create basic version based on the first panfu revisions
 - get it working with the original emulator or build a new game server
 - implement dev tools so that we can add content trough a portal
