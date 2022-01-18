@@ -12,7 +12,7 @@ After looking at many options i decided to go for pixiJS as renderer and here we
 
 And let's be real here.. flash emulators or older chromium containers aren't really a solution but just a patch for a problem that should be solved.
 
-### why not unity or unreal godot or anything else?!
+### Why not unity or unreal godot or anything else?!
 Because it's fun and i think AAA engines are way to heavy for a game like this.
 It's like putting a race engine in to a small car. will it work?! probably... is it resource hungry and impractical hell yea.
 
@@ -29,6 +29,17 @@ Be sure to contact me if you still have the full flash client, I'd love to add m
 
 ## Dependencies and libraries used for this project
 - Pixi.js
+
+## Current project goals
+- Load in scenes
+- create basic version based on the first panfu revisions
+- get it working with the original emulator or build a new game server
+- implement dev tools so that we can add content trough a portal
+- add achievements
+- add quests
+- add ranks
+- add mod tools
+- add all newer content with the mod tools
 
 ![Image](https://tcrf.net/images/thumb/3/37/Panfu-Map_Nov07.jpg/400px-Panfu-Map_Nov07.jpg)
 
