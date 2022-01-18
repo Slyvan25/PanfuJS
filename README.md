@@ -1,12 +1,19 @@
-## Welcome to GitHub Pages
+## What is PanfuJs
 
-You can use the [editor on GitHub](https://github.com/Slyvan25/PanfuJS/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+PanfuJs was/is my attempt to recreate the old flash client in pure html5 and js.
+This is to start my own panfu website just for fun and nostalgia.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+Why a rewrite?!
 
-### Markdown
+You may contribute if you want. i want this client to be open source for the community.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+### Contact
+
+Be sure to contact me if you still have the full flash client, I'd love to add more stuff in to this.
+
+**Discord: ** slyvan25#5565
+
+![Image](https://tcrf.net/images/thumb/3/37/Panfu-Map_Nov07.jpg/400px-Panfu-Map_Nov07.jpg)
 
 ```markdown
 Syntax highlighted code block
