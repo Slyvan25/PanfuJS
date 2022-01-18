@@ -1,3 +1,6 @@
+![image](https://github.com/Slyvan25/PanfuJS/blob/master/public/img/logo.png)
+
+
 # What is PanfuJs
 
 PanfuJs was/is my attempt to recreate the old flash client in pure html5 and js.
