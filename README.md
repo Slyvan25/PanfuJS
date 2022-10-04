@@ -1,4 +1,4 @@
-![image](https://github.com/Slyvan25/PanfuJS/blob/master/public/img/logo.png)
+![image](https://github.com/Slyvan25/PanfuJS/blob/master/src/images/panda.png)
 
 PanfuJs was/is my attempt to recreate the old flash client in pure html5 and js.
 This is to start my own panfu website just for fun and nostalgia.
