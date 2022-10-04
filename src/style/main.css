@@ -47,6 +47,7 @@
   
 
 /* style */
+* { padding: 0; margin: 0; }
 body
 {
     margin: 0;
@@ -54,12 +55,15 @@ body
     background-color: #ffffff;
     width: 100%;
     font-family: 'Ubuntu';
+    background: linear-gradient(300deg, rgba(169,210,16,1) 10%, rgba(136,179,42,1) 75%, rgba(127,171,49,1) 85%);
 }
 
 canvas-container
 {
-    width: 800px;
-    height: 600px;
+    /* width: 800px;
+    height: 600px; */
+    width: inherit;
+    height: 100%;
     position: fixed;
     background: linear-gradient(300deg, rgba(169,210,16,1) 10%, rgba(136,179,42,1) 75%, rgba(127,171,49,1) 85%);
     display: block;

@@ -1,0 +1,125 @@
+{
+    "images": [
+        {
+            "name": "ducky",
+            "location": "./scenes/town/duck_frame_1.png",
+            "x": 0,
+            "y": 0,
+            "scale": 0.5
+        },
+        {
+            "name": "duckyCheer",
+            "location": "./scenes/town/duck_frame_2.png",
+            "x": 0,
+            "y": 0,
+            "scale": 0.5
+        },
+        {
+            "name": "sky",
+            "location": "./scenes/town/sky.jpg",
+            "x": 500,
+            "y": 100,
+            "scale": 0.5
+        },
+        {
+            "name": "floor",
+            "location": "./scenes/town/floor.png",
+            "x": 400,
+            "y": 350,
+            "scale": 0.3
+        },
+        {
+            "name": "iceAndGiftShop",
+            "location": "./scenes/town/buildings_left.png",
+            "x": 250,
+            "y": 260,
+            "scale": 0.55
+        },        
+        {
+            "name": "petShop",
+            "location": "./scenes/town/buildings_right.png",
+            "x": 670,
+            "y": 255,
+            "scale": 0.55
+        },
+        {
+            "name": "pancakeStand",
+            "location": "./scenes/town/lantern_side.png",
+            "x": 13,
+            "y": 290,
+            "scale": 0.5
+        },
+        {
+            "name": "lanternSide",
+            "location": "./scenes/town/lantern_side.png",
+            "x": 13,
+            "y": 290,
+            "scale": 0.5
+        },
+        {
+            "name": "kiosk",
+            "location": "./scenes/town/kiosk.png",
+            "x": 780,
+            "y": 330,
+            "scale": 0.5
+        },
+        {
+            "name": "lantern",
+            "location": "./scenes/town/lantern.png",
+            "x": 780,
+            "y": 355,
+            "scale": 0.5
+        },
+        {
+            "name": "benchLeft",
+            "location": "./scenes/town/bench_left.png",
+            "x": 210,
+            "y": 445,
+            "scale": 0.5
+        },
+        {
+            "name": "freezer",
+            "location": "./scenes/town/freezer.png",
+            "x": 140,
+            "y": 470,
+            "scale": 0.5
+        },
+        {
+            "name": "mailbox",
+            "location": "./scenes/town/mailbox.png",
+            "x": 80,
+            "y": 490,
+            "scale": 0.5
+        },
+        {
+            "name": "benchRight",
+            "location": "./scenes/town/bench_right.png",
+            "x": 455,
+            "y": 470,
+            "scale": 0.5
+        },
+        {
+            "name": "trafficLight",
+            "location": "./scenes/town/trafficlight.png",
+            "x": 745,
+            "y": 510,
+            "scale": 0.5
+        }
+    ],
+    "animations": [
+        {
+            "x": 619,
+            "y": 255,
+            "scale": 0.55,
+            "animation":{
+                "key": "cheeringDuck",
+                "frames": [
+                    { "key": "ducky", "duration": 5000},
+                    { "key": "duckyCheer", "duration": 500 }
+                ],
+                "frameRate": 4,
+                "repeat": -1
+            }
+        }
+    ]
+}
