@@ -8,7 +8,7 @@ This is to start my own panfu website just for fun and nostalgia.
 When i was playing on a private server years ago and heard about flash being deprecated by 2021 i was like why not recreate this as a project for school.
 I got far and actually made something that worked in js and canvas but my knowledge was really limited.
 It was really messy and a few years later i decided to rewrite it with an engine kind of approach so that implementing stuff would be better.
-After looking at many options i decided to go for pixiJS as renderer and here we are.
+After looking at many options i decided to go for P̶i̶x̶i̶J̶s̶  Phaser as renderer/engine and here we are.
 
 And let's be real here.. flash emulators or older chromium containers aren't really a solution but just a patch for a problem that should be solved.
 
