@@ -1,5 +1,5 @@
 <p align="center">
-  <img width="720" height="300" src="https://pbs.twimg.com/media/FcUn-0fXwAANUcV?format=png&name=small">
+  <img width="547" height="291" src="https://pbs.twimg.com/media/FcUn-0fXwAANUcV?format=png&name=small">
 </p>
 
 PanfuJs was/is my attempt to recreate the old flash client in pure html5 and js.
