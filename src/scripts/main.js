@@ -4,6 +4,7 @@ const username = document.cookie;
 
 // scenes
 let townScene = new TownScene;
+let castleScene = new CastleScene;
 
 const game = new Phaser.Game({
     type: Phaser.AUTO,
@@ -20,7 +21,7 @@ const game = new Phaser.Game({
         height: 600
     },
     backgroundColor: '#fffffff',
-    scene: townScene,
+    scene: [townScene, castleScene],
     parent: canvasContainer
 })
 
@@ -47,13 +48,13 @@ function resize() {
 
 
 function loadScene(scene) {
-    console.log(scene);
-
-    // townScene = new TownScene;
-    // //#region town
-    // let town = sceneManager.createScene('town', townScene)
-
-    //#endregion town
-
-    sceneManager.gotoScene(scene)
+    if (game.scene.scenes.length > 0) {       
+        game.scene.scenes.forEach((scene) => {
+            const key = scene.scene.key; // This is not a typo, the scene here is more like a "game" object, so the scene actually is under the "scene" property.
+            game.scene.stop(key);
+        })
+    }
+    // After stopping all scenes, then you can start only the scene you need
+    game.sound.stopAll();
+    game.scene.start(scene);
 }

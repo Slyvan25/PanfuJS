@@ -1,9 +1,10 @@
+let interactables = [];
 class TownScene extends Phaser.Scene {
     scene = {};
 
     constructor (config)
     {
-        super(config);
+        super('town');
     }
 
     async getScene() {
@@ -14,6 +15,7 @@ class TownScene extends Phaser.Scene {
     async preload ()
     {
         this.load.image("floor", "./scenes/town/floor.png");
+        this.load.audio("background", ["./scenes/town/background.mp3"]);
         let scene = await this.getScene();
 
         for (let image = 0; image < scene.images.length; image++) {
@@ -23,13 +25,17 @@ class TownScene extends Phaser.Scene {
 
     }
 
-    async create ()
-    {
+    async create () {
         let scene = await this.getScene();
 
+        // load images
         for (let image = 0; image < scene.images.length; image++) {
             const imageElement = scene.images[image];
             const loadedImage = this.add.image(imageElement.x, imageElement.y, imageElement.name);
+            if (imageElement.interactable) {
+                let interactable = loadedImage.setInteractive();
+                interactables.push(interactable);
+            }
             loadedImage.setScale(imageElement.scale)
         }
 
@@ -40,6 +46,24 @@ class TownScene extends Phaser.Scene {
             let loadedAnimation = this.add.sprite(sceneAnimation.x,sceneAnimation.y, sceneAnimation.animation.frames[0].key).play(sceneAnimation.animation.key)
             loadedAnimation.setScale(sceneAnimation.scale)
         }
+
+        let backgroundMusic = this.sound.add("background", { loop: true });
+        backgroundMusic.play();
+
+        console.log(interactables)
     }
 
+    update () {
+        if (interactables.length > 0) {
+
+            if (interactables[0].input.pointerOver) {
+                console.log(interactables[0])
+            }
+            interactables[0].on("pointerover", pointer => {
+                console.log(pointer);
+            })
+        }
+    }
+
+    
 }

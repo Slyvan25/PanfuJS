@@ -5,105 +5,128 @@
             "location": "./scenes/town/duck_frame_1.png",
             "x": 0,
             "y": 0,
-            "scale": 0.5
+            "scale": 0.5,
+            "interactable": false
         },
         {
             "name": "duckyCheer",
             "location": "./scenes/town/duck_frame_2.png",
             "x": 0,
             "y": 0,
-            "scale": 0.5
+            "scale": 0.5,
+            "interactable": false
         },
         {
             "name": "sky",
             "location": "./scenes/town/sky.jpg",
             "x": 500,
             "y": 100,
-            "scale": 0.5
+            "scale": 0.5,
+            "interactable": false
         },
         {
             "name": "floor",
             "location": "./scenes/town/floor.png",
             "x": 400,
             "y": 350,
-            "scale": 0.3
+            "scale": 0.3,
+            "interactable": false
+        },
+        {
+            "name": "IceCreamDoorClosed",
+            "location": "./scenes/town/icecream_door_closed.png",
+            "x": 160,
+            "y": 318,
+            "scale": 0.5,
+            "interactable": true
+        },
+        {
+            "name": "IceCreamDoorOpened",
+            "location": "./scenes/town/icecream_door_opened.png",
+            "x": 160,
+            "y": 318,
+            "scale": 0.5,
+            "interactable": true
         },
         {
             "name": "iceAndGiftShop",
             "location": "./scenes/town/buildings_left.png",
             "x": 250,
             "y": 260,
-            "scale": 0.55
+            "scale": 0.55,
+            "interactable": false
         },        
         {
             "name": "petShop",
             "location": "./scenes/town/buildings_right.png",
             "x": 670,
             "y": 255,
-            "scale": 0.55
+            "scale": 0.55,
+            "interactable": false
         },
         {
             "name": "pancakeStand",
             "location": "./scenes/town/lantern_side.png",
             "x": 13,
             "y": 290,
-            "scale": 0.5
+            "scale": 0.5,
+            "interactable": false
         },
         {
             "name": "lanternSide",
             "location": "./scenes/town/lantern_side.png",
             "x": 13,
             "y": 290,
-            "scale": 0.5
+            "scale": 0.5,
+            "interactable": false
         },
         {
             "name": "kiosk",
             "location": "./scenes/town/kiosk.png",
             "x": 780,
             "y": 330,
-            "scale": 0.5
+            "scale": 0.5,
+            "interactable": false
         },
         {
             "name": "lantern",
             "location": "./scenes/town/lantern.png",
             "x": 780,
             "y": 355,
-            "scale": 0.5
+            "scale": 0.5,
+            "interactable": false
         },
         {
             "name": "benchLeft",
             "location": "./scenes/town/bench_left.png",
             "x": 210,
             "y": 445,
-            "scale": 0.5
+            "scale": 0.5,
+            "interactable": false
         },
         {
             "name": "freezer",
             "location": "./scenes/town/freezer.png",
             "x": 140,
             "y": 470,
-            "scale": 0.5
+            "scale": 0.5,
+            "interactable": false
         },
         {
             "name": "mailbox",
             "location": "./scenes/town/mailbox.png",
             "x": 80,
             "y": 490,
-            "scale": 0.5
+            "scale": 0.5,
+            "interactable": false
         },
         {
             "name": "benchRight",
             "location": "./scenes/town/bench_right.png",
             "x": 455,
             "y": 470,
-            "scale": 0.5
-        },
-        {
-            "name": "trafficLight",
-            "location": "./scenes/town/trafficlight.png",
-            "x": 745,
-            "y": 510,
-            "scale": 0.5
+            "scale": 0.5,
+            "interactable": false
         }
     ],
     "animations": [

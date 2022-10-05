@@ -132,11 +132,15 @@ closeMapBtn.addEventListener('click', () => {
     map.removeAttribute('opened');
 })
 
+function closeMap() {
+    map.removeAttribute('opened');
+}
+
 // init clickable map areas
 let hovered = false;
 
 for (let area = 0; area < mapCoords.length; area++) {
-    mapAreas.innerHTML += `<button id="tooltip-${area}" style="top: ${mapCoords[area].coords[0]}px; left: ${mapCoords[area].coords[1]}px; width: ${mapCoords[area].width}px; height: ${mapCoords[area].height}px;" onmouseover="showTooltip(event, ${area})" onmouseleave="destroyTooltip(event)" onclick="loadScene('${mapCoords[area].location}')" />`
+    mapAreas.innerHTML += `<button id="tooltip-${area}" style="top: ${mapCoords[area].coords[0]}px; left: ${mapCoords[area].coords[1]}px; width: ${mapCoords[area].width}px; height: ${mapCoords[area].height}px;" onmouseover="showTooltip(event, ${area})" onmouseleave="destroyTooltip(event)" onclick="loadScene('${mapCoords[area].location}'); closeMap();" />`
 }
 
 

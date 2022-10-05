@@ -1,0 +1,19 @@
+{
+    "images": [
+        {
+            "name": "castleSky",
+            "location": "./scenes/castle/sky.png",
+            "x": 400,
+            "y": 100,
+            "scale": 1.1
+        },
+        {
+            "name": "castleFloor",
+            "location": "./scenes/castle/floor.png",
+            "x": 400,
+            "y": 350,
+            "scale": 0.3
+        }
+    ],
+    "animations": []
+}
