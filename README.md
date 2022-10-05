@@ -1,5 +1,9 @@
 ![image](https://pbs.twimg.com/media/FcUn-0fXwAANUcV?format=png&name=small)
 
+<p align="center">
+  <img width="460" height="300" src="http://www.fillmurray.com/460/300">
+</p>
+
 PanfuJs was/is my attempt to recreate the old flash client in pure html5 and js.
 This is to start my own panfu website just for fun and nostalgia.
 
