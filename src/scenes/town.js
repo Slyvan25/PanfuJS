@@ -9,7 +9,7 @@ class TownScene extends Phaser.Scene {
 
     async getScene() {
         const scene = fetch("./scenes/town/scene.json").then(response => response.json());
-        return scene
+        return scene;
     }
 
     async preload ()
@@ -27,6 +27,7 @@ class TownScene extends Phaser.Scene {
 
     async create () {
         let scene = await this.getScene();
+        interactables = [];
 
         // load images
         for (let image = 0; image < scene.images.length; image++) {
@@ -36,15 +37,15 @@ class TownScene extends Phaser.Scene {
                 let interactable = loadedImage.setInteractive();
                 interactables.push(interactable);
             }
-            loadedImage.setScale(imageElement.scale)
+            loadedImage.setScale(imageElement.scale);
         }
 
         for (let animation = 0; animation < scene.animations.length; animation++) {
             const sceneAnimation = scene.animations[animation];
-            this.anims.create(sceneAnimation.animation)
+            this.anims.create(sceneAnimation.animation);
             
-            let loadedAnimation = this.add.sprite(sceneAnimation.x,sceneAnimation.y, sceneAnimation.animation.frames[0].key).play(sceneAnimation.animation.key)
-            loadedAnimation.setScale(sceneAnimation.scale)
+            let loadedAnimation = this.add.sprite(sceneAnimation.x,sceneAnimation.y, sceneAnimation.animation.frames[0].key).play(sceneAnimation.animation.key);
+            loadedAnimation.setScale(sceneAnimation.scale);
         }
 
         let backgroundMusic = this.sound.add("background", { loop: true });
@@ -55,13 +56,9 @@ class TownScene extends Phaser.Scene {
 
     update () {
         if (interactables.length > 0) {
-
-            if (interactables[0].input.pointerOver) {
-                console.log(interactables[0])
-            }
             interactables[0].on("pointerover", pointer => {
                 console.log(pointer);
-            })
+            });
         }
     }
 
